@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+nav {
+    background: #212529;
+    display: flex;
+    justify-content: space-around;
+    height: 55px;
+    box-sizing: border-box;
+    align-items: center;
+    font: bold;
+    color: white;
+    font-size: 90%;
+}
+
+#logo {
+    color: rgb(255, 208, 0);
+    font-family:'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive
+}
+
+.menu {
+    color: white;
+    background-color: rgb(255, 208, 0);
+    border: 0px;
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+    padding: 1px;
+    font-size: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+nav ul li {
+    display: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.back-img img {
+    width: 100%;
+    height: auto;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+@media (min-width: 900px) {
+    nav ul li {
+        display: block;
+    }
+    .menu {
+        display: none !important;
+    }
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 771px;
+    align-items: center;
+}
+
+.services h1 {
+    font-size: 40px;
+}
+
+.serviceOptions {
+    display: flex;
+    flex-direction: row !important;
+}
+
+
+
